@@ -5,8 +5,8 @@ on:
       - main
 env:
   PANTHEON_SITE: tcdrupal
-  PANTHEON_ENV: dev
   PANTHEON_SITE_ID: b615277a-aa8f-432f-9c55-3c44218caf83
+  PANTHEON_ENV: dev
 
   # note: PATHEON_SITE_ID assumes that your Pantheon Git URL is in the format
   # ssh://codeserver.dev.[PANTHEON_SITE_ID]@codeserver.dev.[PANTHEON_SITE_ID].drush.in:2222/~/repository.git
